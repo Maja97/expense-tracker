@@ -1,0 +1,149 @@
+/*both*/
+html,
+body {
+    font-family: 'Actor', sans-serif;
+}
+
+.navbar{
+background-color: #317224;
+}
+
+.navbar-brand, .nav-item a{
+    color: white;
+}
+
+.navbar-brand:hover, .nav-item a:hover{
+    color: rgb(213, 247, 186);
+}
+nav-item a{
+    font-size: 17px;
+}
+
+#flag-hr:hover,
+#flag-en:hover {
+    cursor: pointer;
+}
+
+/*main.php*/
+
+.charts {
+    margin-top: 50px;
+  }
+
+  #lineChart {
+    display: none;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+  }
+
+  #chart-area{
+    display: none;
+  }
+
+  #info{
+    text-align: center;
+    font-size: 20px;
+    color: green;
+    background-color: white;
+    padding: 50px;
+  }
+
+  .welcome-text{
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    background-color:rgb(241, 247, 216);
+    border-bottom-style: dashed;
+    border-bottom-color: green;
+    border-bottom-width: 1px;
+  }
+  main{
+    padding: 0 !important;
+    margin: 0 !important;
+    border-style: solid;
+    border-color: green;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+
+/*expenses.php*/
+.table-wrapper {
+   height: 450px;
+    overflow: auto;
+    display:inline-block;
+    width: 100%;
+    display: inline-block;
+  }
+
+.form-horizontal{
+    border-width: 2px;  
+    border-style:solid;
+    box-shadow: 5px 5px #a8a8a8;
+    padding: 30px;
+    background-color: #ecececb4;
+}
+
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 65%;
+    margin-top: 6px;
+  }
+  
+  .row{
+      padding: 10px;
+  }
+
+  input:hover{
+        border: 1px solid rgb(153, 153, 153);
+  }
+
+  .table-striped>tbody>tr:nth-child(odd)>td,
+  .table-striped>tbody>tr:nth-child(odd)>th {
+    color: black;
+    background-color: #ecececb4;
+  }
+
+  .table-striped>tbody>tr:nth-child(even)>td,
+  .table-striped>tbody>tr:nth-child(even)>th {
+    color: black;
+    background-color: rgba(183, 203, 178, 0.75);
+  }
+
+  thead {
+    background-color: #00171F;
+  }
+
+  .row-last {
+    border-width: thin;
+    border-style: dashed;
+    border-color: transparent;
+    border-bottom-color: #317224;
+  }
+
+  .converter {
+    font-size: 19px;
+  }
+
+  #converted,
+  #res {
+    font-size: 18px;
+  }
+
+  .message{
+    color: red;
+  }
+  thead>tr > th:last-of-type {
+  width: 5px;
+}
+
+/*settings*/
+.settings-form{
+  width: 700px;
+}
